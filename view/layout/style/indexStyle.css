@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0 0 0 0;
+    border: 0 none;
+    box-shadow: none;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+}
+
+/* header style */
+header {
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+}
+/* menu */
+.menu {
+    display: none;
+
+}
+.fa-bars {
+    width: max-content;
+    height: max-content;
+    margin-left: 35px;
+    
+    font-size: 1.5rem;
+}
+
+/* Logo */
+#container-logo {
+    width: max-content;
+    height: auto;
+    margin-left: 20px;
+}
+#logo {
+    font-size:1.5rem;
+    font-weight: lighter;
+    color: #2e4765;
+}
+#logo:hover {
+    text-decoration: none;
+}
+
+/* Name user */
+#container-name-user {
+    width: max-content;
+    height: auto;
+    position: absolute;
+    right: 35px;
+}
+#name-content-user {
+    font-size:1.2rem;
+    font-weight: lighter;
+    color: #2e4765;
+}
+
+/* Content main- scree */
+#container-element-content {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+}
+main, 
+aside {
+    height: auto;
+    min-height: calc(100vh - 11vh);
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef50;
+}
+main {
+    width: 70%;
+    float: left;
+}
+aside {
+    width: 30%;
+    float: right;
+}
+
+/* Main styel */
+#content-elements {
+    width: 100%;
+    height: auto;
+    min-height: calc(100vh - 11vh);  
+}
+#overflow-x-container-cards {
+    width: 75%;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    overflow-x: visible;
+}
+#container-cards-categ  {
+    width: max-content;
+    height: auto;
+    display: flex;
+    overflow-x: visible;
+}
+.card {
+    width: max-content;
+    padding: 13px 20px;
+    background-color: #fff;
+    margin: 0 20px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    align-items: center;
+    transition: .3s ease;
+    -o-transition: .3s ease;
+    -moz-transition: .3s ease;
+    box-shadow: 0 0 .3em .3em #efefef38;
+}
+.card:hover {
+    box-shadow: 0 0 .3em .3em #efefef90;
+}
+.add-account {
+    width: max-content;
+    color: #2e4765;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.fa-plus,
+.fa-level-up,
+.fa-level-down {
+    font-size: 1.5rem;
+    margin-right: 7px;
+}
+.fa-plus {
+    position: relative;
+    top: 2px;
+    color: #4169e1;
+}
+.fa-level-up {
+    color: #5ec394;
+}
+.fa-level-down {
+    color: #ff846e;
+}

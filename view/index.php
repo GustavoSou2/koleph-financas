@@ -34,7 +34,7 @@
 
         <!-- container logo --left -->
         <div id="container-logo">
-            <a href="#" id="logo">Markdown</a>
+            <a href="#" id="logo">Koleph</a>
         </div>
 
         <!-- container name user -->
@@ -45,6 +45,8 @@
     <div id="container-element-content">
         <main>
             <section id="content-elements">
+
+                <!-- Container cards of mode -->
                 <div id="overflow-x-container-cards">
                     <div id="container-cards-categ">
                         <div class="card desp">
@@ -62,12 +64,75 @@
                                 <i class="fa fa-level-down"></i>Debitar deposito
                             </span>
                         </div>
-
                     </div>
+                </div>
+
+                <!-- Container search -->
+                <div id="container-search-desp">
+                    <label for="search-content" id="case-input-search"> <i class="fa fa-search"></i>
+                        <input type="search" name="inp_search" id="search-content" maxlength="45">
+                    </label>
+                </div>
+
+                <!-- Cards the desp -->
+                <div id="container-info-desp">
+                    <div class="sub-container-elements">
+                        <span class="title-element-desp">Carro</span>
+                        <div class="container-description-desp">
+                            <span class="category-desp ret">Retirada</span>
+
+                            <span class="qtde-desp">- R$43.90 </span>
+
+
+                            <div class="hidden-config-icon">
+                                <i class="fa fa-cog"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sub-container-elements">
+                        <span class="title-element-desp">Casa</span>
+                        <div class="container-description-desp">
+                            <span class="category-desp ret">Retirada</span>
+
+                            <span class="qtde-desp">- R$1203.20 </span>
+
+                            <div class="hidden-config-icon">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-container-elements">
+                        <span class="title-element-desp">Carro</span>
+                        <div class="container-description-desp">
+                            <span class="category-desp adep">Acrescimo</span>
+
+                            <span class="qtde-desp">+ R$9203.90 </span>
+
+                            <div class="hidden-config-icon">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </main>
         <aside>
+            <section id="container-element-description-user">
+                <!-- qtde money user -->
+                <div id="container-total-money">
+                    <span id="total-title">Total</span>
+                    <span id="money-user-description">
+                        R$ 3.364,00
+                    </span>
+                </div>
+
+                <!-- notes user -->
+                <section id="notes-desp">
+                </section>
+            </section>
+
         </aside>
     </div>
 </body>
